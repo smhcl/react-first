@@ -10,7 +10,7 @@ const List = () => {
                             <div class="card-body">
                                 <h5 class="card-title">Literature</h5>
                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                <a href="#l" class="btn btn-primary">Literature</a>
+                                <a href="/" class="btn btn-primary">Literature</a>
                             </div>
                         </div>
                     </div>
@@ -21,7 +21,7 @@ const List = () => {
                             <div class="card-body">
                                 <h5 class="card-title">Sci Fi</h5>
                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                <a href="#" class="btn btn-primary">Sci Fi</a>
+                                <a href="/" class="btn btn-primary">Sci Fi</a>
                             </div>
                         </div>
                     </div>
@@ -32,7 +32,7 @@ const List = () => {
                             <div class="card-body">
                                 <h5 class="card-title">Fantasy</h5>
                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                <a href="#" class="btn btn-primary">Fantasy</a>
+                                <a href="/" class="btn btn-primary">Fantasy</a>
                             </div>
                         </div>
                     </div>
