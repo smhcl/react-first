@@ -1,10 +1,10 @@
-
-const Header = () => {
+const Header = props => {
+    const { loginVisibleFn } = props
     return (
         <header className="main-header">
         <div className="navbar navbar-expand-lg navbar-light bg-light">
             <nav className="logo-container container-xxl flex-wrap flex-md-nowrap">
-                <a href="index.html" className="logo-link">
+                <a href="/" className="logo-link">
                     <figure className="figure">
                         <img className="figure-img img-fluid" src="./assets/images/book_logo.jpg" alt="Books" title="Books" />
                     </figure>
@@ -25,7 +25,7 @@ const Header = () => {
                         <a href="/" className="me-4">
                             <i className="bi-search header-icon"></i>
                         </a>
-                        <a href="/">
+                        <a onClick={loginVisibleFn} href="#">
                             <i className="bi-person-circle header-icon"></i>
                         </a>
                     </div>

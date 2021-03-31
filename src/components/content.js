@@ -1,12 +1,16 @@
 import Sidebar from './sidebar';
 import List from './list';
+import Login from './login';
 
-const Content = () => {
+const Content = props => {
+    const { loginVisible } = props;
     return (
-        <div class="wrapper container mt-3 mb-3">
-            <div class="row">
+        <div className="wrapper container mt-3 mb-3">
+            <div className="row">
                 <Sidebar />
-                <List />
+                <main className="bd-main col-9">
+                    {loginVisible ? <Login /> : <List />}
+                </main>
             </div>
         </div>
     );
